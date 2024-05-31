@@ -16,17 +16,17 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", ": ™°‌ 🫧 𝘽𝙡𝙤𝙨𝙨𝙤𝙢𓃭 ⃟ᴍᴜsɪᴄ⛦⃕͜༆")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "5059737154").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5569528945").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/PRADHAN474/OXYMUSIC")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Sumitmeena12/OXYMUSIC")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BWANDARLOK")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/PRADHAN474")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/dragondpworld")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/apnihavelixd")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
